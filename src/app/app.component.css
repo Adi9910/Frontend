@@ -1,6 +1,5 @@
 .body {
-  background-image: linear-gradient(lightgrey,orange, white, green);
-  background-color: #cccccc;
+  background-image: linear-gradient(white, lightgrey, cyan, rgb(151, 218, 151), pink, magenta, red);
 }
 
 .content {
@@ -46,6 +45,8 @@ li a:hover {
 
 .login {
   font-size: 20px;
+  background-color: #f19e3f; 
+  color: black;
 }
 
 .cancel {
