@@ -1,16 +1,47 @@
+.body {
+  background-image: linear-gradient(lightgrey,orange, white, green);
+  background-color: #cccccc;
+}
+
 .content {
+  padding: 130px 180px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgrey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
   text-align: center;
-  padding-top: 150px;
-  border: 2px black;
+  font-size: 28px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: orange;
 }
 
 .text {
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-family: lato;
 }
 
 .input {
-  font-size: 20px;
+  font-size: 30px;
+  color: black;
 }
 
 .login {

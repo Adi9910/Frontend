@@ -1,18 +1,26 @@
-<form class="content" action="action_page.php" method="post">
-      <label class="text" for="uname"><b>Username</b></label
-      ><br />
-      <input class="input" type="text" placeholder="Enter Username" name="uname" required/>
+<body class="body">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="https://www.bbc.co.uk/news">News</a></li>
+    <li><a href="https://www.googleadservices.com/pagead">Contact</a></li>
+    <li style="float: right"><a class="active" href="#about">About</a></li>
+  </ul>
+  <div class="content">
+    <label class="text" for="uname"><b>Email-ID</b></label
+    ><br /><br />
+    <input class="input" type="text" placeholder="example@gmail.com" />
+    <br /><br /><br />
+    <label class="text" for="psw"><b>Password</b></label
+    ><br /><br />
+    <input class="input" type="password" placeholder="Enter Password" />
+    <br /><br /><br />
+    <label>
+      <input class="check" type="checkbox" name="remember" />
+      Remember me </label>
       <br /><br />
-      <label class="text" for="psw"><b>Password</b></label
-      ><br />
-      <input class="input" type="password" placeholder="Enter Password" name="psw" required/>
-      <br /><br /><br />
-      <label>
-        <input class="check" type="checkbox" checked="checked" name="remember" />
-        Remember me
-      </label>
     <div>
       <button class="login" type="submit">Login</button>&nbsp;&nbsp;
       <button class="cancel" type="button">Cancel</button>
-    </div>  
-</form>
+    </div>
+  </div>
+</body>
