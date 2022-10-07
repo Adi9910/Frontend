@@ -21,15 +21,17 @@ code {
   text-decoration-color: blue;
 }
 .login {
-  font-size: 30px;
-  padding: 15px;
+  font-size: 24px;
+  padding: 13px 50px;
   background-color: #f19e3f;
   color: black;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .cancel {
-  font-size: 30px;
-  padding: 15px;
+  font-size: 24px;
+  padding: 13px 50px;
   border-radius: 30px;
+  cursor: pointer;
 }

@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-div">
         <img src={logo} className="App-logo" alt="logo" />
         <div class="content">
           <input class="input" type="text" placeholder="First Name" />
@@ -31,7 +31,7 @@ function App() {
             </button>
           </div>
         </div>
-      </header>
+      </div>
     </div>
   );
 }
