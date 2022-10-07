@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />REGISTER YOURSELF<br /><br />
+        <img src={logo} className="App-logo" alt="logo" />
         <div class="content">
           <input class="input" type="text" placeholder="First Name" />
           &nbsp;&nbsp;
