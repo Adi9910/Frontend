@@ -7,18 +7,13 @@ function App() {
       <div className="App-div">
         <img src={logo} className="App-logo" alt="logo" />
         <div class="content">
-          <input class="input" type="text" placeholder="First Name" />
-          &nbsp;&nbsp;
-          <input class="input" type="text" placeholder="Last Name" />
+          <input class="input" type="text" placeholder="Name" />
           <br />
           <br />
           <input class="input" type="text" placeholder="example@gmail.com" />
           <br />
           <br />
           <input class="input" type="number" placeholder="Enter Phone Number" />
-          <br />
-          <br />
-          <input class="input" type="password" placeholder="Enter Password" />
           <br />
           <br />    
           <div>
