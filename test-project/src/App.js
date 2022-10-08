@@ -18,7 +18,7 @@ function App() {
           <br />    
           <div>
             <button class="login" type="submit">
-              Login
+              REGISTER
             </button>
             &nbsp;&nbsp;
             <button class="cancel" type="button">
