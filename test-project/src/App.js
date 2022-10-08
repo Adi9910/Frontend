@@ -13,7 +13,7 @@ function App() {
           <input class="input" type="text" placeholder="example@gmail.com" />
           <br />
           <br />
-          <input class="input" type="number" placeholder="Enter Phone Number" />
+          <input class="input" type="text" placeholder="Enter Phone Number" />
           <br />
           <br />    
           <div>
