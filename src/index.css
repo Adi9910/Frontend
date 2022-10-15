@@ -12,26 +12,3 @@ code {
     monospace;
 }
 
-.input {
-  padding: 10px 10px 10px 20px;
-  font-size: 30px;
-  color: rgb(67, 219, 253);
-  border-radius: 30px;
-  background-color: black;
-  text-decoration-color: blue;
-}
-.login {
-  font-size: 24px;
-  padding: 13px 50px;
-  background-color: #f19e3f;
-  color: black;
-  border-radius: 30px;
-  cursor: pointer;
-}
-
-.cancel {
-  font-size: 24px;
-  padding: 13px 50px;
-  border-radius: 30px;
-  cursor: pointer;
-}
