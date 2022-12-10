@@ -1,21 +1,38 @@
-import React, { useState } from "react";
-function useInput(defaultValue) {
-  const [value, setValue] = useState(defaultValue);
-  function onChange(e) {
-    setValue(e.target.value);
-  }
-  return {
-    value,
-    onChange,
+import { Component } from "react";
+import Plan from "./Plan";
+class App extends Component {
+  state = {
+    items: [],
+    text: "",
   };
-}
-function App() {
-  const inputProps = useInput();
-  return (
-    <div className="wow">
-      <input {...inputProps} placeholder="Type in here" />
-      <div>Value: {inputProps.value} </div>
-    </div>
-  );
+  handleChange = (e) => {
+    this.setState({ text: e.target.value });
+  };
+  handleClick = (e) => {
+    if (this.state.text !== "") {
+      const items = [...this.state.items, this.state.text];
+      this.setState({ items: items, text: "" });
+    }
+  };
+  render() {
+    return (
+      <>
+        <div>TOPIC</div>
+        <input
+          value={this.state.text}
+          onChange={this.handleChange}
+          placeholder="write something"
+        />&nbsp;
+        <button type="button" onClick={this.handleClick}>
+          ADD
+        </button>
+        <div>
+        {this.state.items.map((val,i)=>{
+          return<Plan value={val} />
+        })}
+        </div>
+      </>
+    );
+  }
 }
 export default App;
