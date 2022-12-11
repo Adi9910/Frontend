@@ -16,22 +16,23 @@ class App extends Component {
   };
   render() {
     return (
-      <>
+      <div style={{ backgroundColor: "grey" }}>
         <div>TOPIC</div>
         <input
           value={this.state.text}
           onChange={this.handleChange}
           placeholder="write something"
-        />&nbsp;
+        />
+        &nbsp;
         <button type="button" onClick={this.handleClick}>
           ADD
         </button>
         <div>
-        {this.state.items.map((val,i)=>{
-          return<Plan value={val} />
-        })}
+          {this.state.items.map((val, i) => {
+            return <Plan key={i} value={val} />;
+          })}
         </div>
-      </>
+      </div>
     );
   }
 }
