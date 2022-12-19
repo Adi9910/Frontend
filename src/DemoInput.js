@@ -12,15 +12,15 @@ function DemoInput() {
   };
   const handleClick = (evnt) => {
     evnt.preventDefault();
-    const newData = (data) => ({
+    const newData = (data) => [
       ...data,
-      input,
-    });
-    setTableData(newData);
+      input
+    ];
+    setTableData(newData)
   };
   return (
     <>
-      <input value={input.fullName} onChange={handleChange} name="fullName" />
+      <input onChange={handleChange} value={input.fullName} name="fullName" />
       <button type="submit" onClick={handleClick}>
         Submit
       </button>

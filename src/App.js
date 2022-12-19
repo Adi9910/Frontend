@@ -1,11 +1,11 @@
-import Input from "./Plan";
+
 import DemoInput from "./DemoInput";
 function App() {
   return (
-    <>
-      {/* <Input /> */}
+    <div className="App">
       <DemoInput/>
-    </>
+    </div>
   );
 }
+
 export default App;
