@@ -17,17 +17,20 @@ function DemoInput() {
       input
     ];
     setTableData(newData)
+    alert(`${input.fullName} added to list successfully`)
   };
   return (
     <>
       <input onChange={handleChange} value={input.fullName} name="fullName" />
-      <button type="submit" onClick={handleClick}>
+      <button type="submit" className="btn-btn-primary" onClick={handleClick}>
         Submit
       </button>
+      <th>#</th>
       <th>Name</th>
-      {tableData.map((abc) => {
+      {tableData.map((abc,i) => {
         return (
-          <tr>
+          <tr key={i}>
+            <td>{i+1}</td>
             <td>{abc.fullName}</td>
           </tr>
         );
