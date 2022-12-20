@@ -12,12 +12,9 @@ function DemoInput() {
   };
   const handleClick = (evnt) => {
     evnt.preventDefault();
-    const newData = (data) => [
-      ...data,
-      input
-    ];
-    setTableData(newData)
-    alert(`${input.fullName} added to list successfully`)
+    const newData = (data) => [...data, input];
+    setTableData(newData);
+    alert(`${input.fullName} added to list successfully`);
   };
   return (
     <>
@@ -27,10 +24,10 @@ function DemoInput() {
       </button>
       <th>#</th>
       <th>Name</th>
-      {tableData.map((abc,i) => {
+      {tableData.map((abc, i) => {
         return (
           <tr key={i}>
-            <td>{i+1}</td>
+            <td>{i + 1}</td>
             <td>{abc.fullName}</td>
           </tr>
         );
