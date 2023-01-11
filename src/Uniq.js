@@ -1,6 +1,9 @@
-function Uniq(props){
-    return(
-        <><div>My name is {props.diff}</div></>
-    )
+function Uniq(props) {
+  return (
+    <>
+      <div>My name is {props.diff}</div>
+    </>
+  );
 }
-export default Uniq
+
+export default Uniq;
