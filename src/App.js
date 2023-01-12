@@ -1,8 +1,9 @@
+import WebcamSnap from "./setting";
 
 function App() {
-  const hype="GOD"
   return (
     <div>
+      <WebcamSnap />
     </div>
   );
 }
