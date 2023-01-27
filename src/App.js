@@ -2,7 +2,6 @@ import Contact from "./Comp/Contact";
 import Home from "./Comp/Home";
 import Login from "./Comp/Login";
 import BasicExample from "./Comp/Navbar";
-import WebcamSnap from "./setting";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
